@@ -170,32 +170,33 @@
         <div class="form-group">
           <label for="gridSize">Grid Size:</label>
           <div class="range-with-value">
-            <input type="range" id="gridSize" min="65" max="201" step="2" value="129">
-            <span class="range-value" id="gridSizeValue">129</span>
+            <input type="range" id="gridSize" min="33" max="201" step="2" value="65">
+            <span class="range-value" id="gridSizeValue">65</span>
           </div>
         </div>
         <div class="form-group">
           <label for="cellSize">Cell Size (pixels):</label>
           <div class="range-with-value">
-            <input type="range" id="cellSize" min="2" max="10" step="1" value="4">
-            <span class="range-value" id="cellSizeValue">4</span>
+            <input type="range" id="cellSize" min="2" max="20" step="1" value="8">
+            <span class="range-value" id="cellSizeValue">8</span>
           </div>
         </div>
         <div class="form-group">
           <label for="sleepThreshold">Animation Speed (lower is faster):</label>
           <div class="range-with-value">
-            <input type="range" id="sleepThreshold" min="10" max="200" step="10" value="50">
-            <span class="range-value" id="sleepThresholdValue">50</span>
+            <input type="range" id="sleepThreshold" min="10" max="200" step="10" value="100">
+            <span class="range-value" id="sleepThresholdValue">100</span>
           </div>
         </div>
       </div>
+      
       
       <div class="config-section">
         <h3>Tower Settings</h3>
         <div class="form-group">
           <label for="towerRadiusFactor">Tower Radius Factor:</label>
           <div class="range-with-value">
-            <input type="range" id="towerRadiusFactor" min="0.3" max="0.8" step="0.05" value="0.5">
+            <input type="range" id="towerRadiusFactor" min="0.3" max="0.5" step="0.05" value="0.5">
             <span class="range-value" id="towerRadiusFactorValue">0.5</span>
           </div>
         </div>
@@ -209,8 +210,8 @@
         <div class="form-group">
           <label for="pillarSpacing">Pillar Spacing:</label>
           <div class="range-with-value">
-            <input type="range" id="pillarSpacing" min="8" max="32" step="2" value="16">
-            <span class="range-value" id="pillarSpacingValue">16</span>
+            <input type="range" id="pillarSpacing" min="6" max="32" step="2" value="8">
+            <span class="range-value" id="pillarSpacingValue">8</span>
           </div>
         </div>
       </div>
@@ -234,12 +235,12 @@
         <div class="form-group">
           <label for="extraDoorProbability">Extra Door Probability:</label>
           <div class="range-with-value">
-            <input type="range" id="extraDoorProbability" min="0" max="1" step="0.1" value="0.2">
-            <span class="range-value" id="extraDoorProbabilityValue">0.2</span>
+            <input type="range" id="extraDoorProbability" min="0" max="1" step="0.05" value="0.1">
+            <span class="range-value" id="extraDoorProbabilityValue">0.1</span>
           </div>
         </div>
         <div class="form-group">
-          <input type="checkbox" id="removeDeadEnds">
+          <input type="checkbox" id="removeDeadEnds" checked>
           <label for="removeDeadEnds" style="display: inline;">Remove Dead Ends</label>
         </div>
       </div>
